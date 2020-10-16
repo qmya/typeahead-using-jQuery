@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir-next-demi-bold.ttf') format('truetype'), url('../fonts/avenir-next-demi-bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Avenir';
+}
+
+.container {
+    width: 700px;
+    border: 1px solid #AFAFAF;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #AFAFAF;
+    border-radius: 3px;
+}
+
+p {
+    color: #AFAFAF;
+    margin-top: 0px;
+    font-weight: 500;
+}
