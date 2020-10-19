@@ -1,16 +1,8 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/avenir-next-demi-bold.ttf') format('truetype'), url('../fonts/avenir-next-demi-bold.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-}
-
 body {
     margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Avenir';
 }
 
 .container {
