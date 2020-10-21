@@ -30,3 +30,20 @@ p {
     margin-top: 0px;
     font-weight: 500;
 }
+
+#result {
+    list-style: none;
+    border: 1px solid #AFAFAF;
+    margin-top: 0px;
+    color: #5d5c5c;
+}
+
+option {
+    padding: 10px;
+    border-top: 1px solid #AFAFAF;
+}
+
+option:hover {
+    background-color: #2569c2;
+    color: white;
+}
